@@ -17,6 +17,6 @@ class TestPalindrom(unittest.TestCase):
                 self.assertTrue(anagram.anagram(str1[i],str2[i]))
         
     
-# figurit out why when i run test execute all anagram.py , i expected only the function to be tested
+# i cant figure out why when i run test execute all anagram.py , i expected only the function to be testedq
 if __name__ == "__main__":
     unittest.main()
