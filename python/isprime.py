@@ -17,4 +17,4 @@ def print_prime_number(ran):
         if is_prime(i):
             print(i)
 
-print_prime_number(100)
+# print_prime_number(100)
