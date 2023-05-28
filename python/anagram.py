@@ -33,21 +33,21 @@ def palindrom(str1,str2):
      
     return reverStr == lowerstr2
 
-# while True:
-#     str1  = input("Enter first string ... 'q' to quit: ")
-#     if str1 == "q":
-#         break
-#     str2  = input("Enter second string ... 'q' to quit: ")
-#     if str2 == 'q':
-#         break
+while True:
+    str1  = input("Enter first string ... 'q' to quit: ")
+    if str1 == "q":
+        break
+    str2  = input("Enter second string ... 'q' to quit: ")
+    if str2 == 'q':
+        break
     
-#     print(str1 + "---" + str2 + ":") 
-#     if palindrom(str1,str2):
-#         print("Palindrom")  
-#     else:
-#         print("Not Palindrom")  
+    print(str1 + "---" + str2 + ":") 
+    if palindrom(str1,str2):
+        print("Palindrom")  
+    else:
+        print("Not Palindrom")  
 
-#     if anagram(str1, str2):
-#         print("Anagram")
-#     else:
-#         print("Anagram")
+    if anagram(str1, str2):
+        print("Anagram")
+    else:
+        print("Anagram")

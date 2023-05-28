@@ -17,6 +17,6 @@ class TestPalindrom(unittest.TestCase):
                 self.assertTrue(anagram.anagram(str1[i],str2[i]))
         
     
-# unittest.main()
+# figurit out why when i run test execute all anagram.py , i expected only the function to be tested
 if __name__ == "__main__":
     unittest.main()
